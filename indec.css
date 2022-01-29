@@ -10,7 +10,7 @@
 .header{
     text-align: center;
     padding: 15px;
-    
+    letter-spacing: 3px;
     font-size: 30px;
     color: rgb(255, 0, 0);
     -webkit-text-stroke: 0.2px white;
@@ -33,7 +33,7 @@
   background-color: azure;
   width:31%;
   flex-wrap: wrap;
-  box-shadow: 1px 1px 8px gray;
+  box-shadow: 1px 4px 6px gray;
   padding: 20px 0px;
   height: 300px;
   transition: 500ms;
@@ -41,7 +41,7 @@
 }
 .section:hover{
     transform: scale(1.04);
-    background-color: rgb(255, 250, 245);
+    background-color: cornsilk;
 }
 .heading{
     margin-bottom: 25px;
@@ -76,7 +76,7 @@ p{
     padding: 10px;
     font-size: large;
 }
-@media screen and (max-width:1180px){
+@media screen and (max-width:1300px){
     .box{
         padding: 20px;
         margin: 0px 18px ;
@@ -88,17 +88,20 @@ p{
         flex: 1;
         min-width: 350px;
         margin: 10px;
-        
-        text-align: center;
+      
     }
-    a{
-        padding-left: 10px;
-        text-align: justify;
+    .anchor a{
+        padding-left:  80px;
+        text-align: left;
     }
 }
 
 @media screen and (max-width:600px){
     .header h1{
         font-size: 50px;
+        
+    }
+    .anchor a{
+        text-align: left;
     }
 }
