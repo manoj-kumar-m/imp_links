@@ -5,12 +5,12 @@
 }
 .container{
     background-color:black ;
-    height: 713px;
+    height: 650px;
 }
 .header{
     text-align: center;
     padding: 15px;
-    height: 130px;
+    
     font-size: 30px;
     color: rgb(255, 0, 0);
     -webkit-text-stroke: 0.1px white;
@@ -85,15 +85,18 @@ a:hover{
         text-align: justify;
     }
 }
+footer{
+    background-color: #000000;
+    padding: 40px;
+}
 p{
     color: white;
-    text-align: right;
-    margin: auto;
-    padding: 20px;
+    text-align: center;
+    padding: 10px;
     font-size: large;
 }
 @media screen and (max-width:600px){
     .header h1{
-        font-size: 55px;
+        font-size: 50px;
     }
 }
