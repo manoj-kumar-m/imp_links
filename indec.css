@@ -85,6 +85,13 @@ a:hover{
         text-align: justify;
     }
 }
+p{
+    color: white;
+    text-align: right;
+    margin: auto;
+    padding: 20px;
+    font-size: large;
+}
 @media screen and (max-width:600px){
     .header h1{
         font-size: 55px;
