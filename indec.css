@@ -56,7 +56,7 @@
 }
 .section:hover{
     transform: scale(1.05);
-    background: aliceblue;
+    background: rgb(210, 228, 243);
     
 
     cursor:pointer;
