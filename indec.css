@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .container{
     background-color: #130f40;
@@ -9,6 +10,8 @@
     height: 100vh;
 }
 .header{
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
     text-align: center;
     padding: 15px;
     letter-spacing: 3px;
@@ -31,10 +34,10 @@
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 60px;
-    margin-bottom: 70px;
+    margin-top: 40px;
+    margin-bottom: 60px;
     justify-content: space-evenly;
-    
+    flex-shrink: 0;
 }
 
 .section{
@@ -46,19 +49,19 @@
     background: -ms-linear-gradient(top,  #a4ccfc 31%,#d3f6fe 100%);
     background: linear-gradient(to bottom,  #9fcaff 31%,#d3f6fe 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94c4fe', endColorstr='#d3f6fe',GradientType=0 );  
-    flex-basis:31%;
+    width:33%;
     flex-wrap: wrap;
     box-shadow: 1px 4px 6px gray;
     padding: 20px 0px;
-    height: 320px;
-    transition: 300ms;
-    border-radius: 8px;
+    height: 350px;
+    transition: 500ms;
+    border-radius: 7px;
+    margin: 0px 12px;
+    
 }
 .section:hover{
     transform: scale(1.05);
     background: rgb(210, 228, 243);
-    
-
     cursor:pointer;
 }
 .heading{
@@ -66,42 +69,50 @@
     padding-left: 10px;
     margin-left: 30px;
 }
+
 a{
     text-decoration: none;
     font-size:22px;
     text-align: left;
     margin-left: 40px;
     color: rgb(72, 41, 145);
-    stroke: 10px rgb(18, 102, 151);
+    
     text-shadow: 2px white;
+    font-weight: 550;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
 }
+
 a:hover{
     color: red;
-    
+    font-weight: 900;
 }
+
 .anchor{
     padding: 8px 0px;
 }
+
 .mid{
     background-color: #ffffff;
     background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
     padding: 20px 0px;
     width: 100%;
 }
+
 footer{
+    padding: 20px;
     background-color: #130f40;
     background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
-    padding: 30px;
-    
 }
+
 p{
     color: white;
     text-align: center;
     padding: 10px;
     font-size: large;
     letter-spacing: 0.8px;
+    margin-top: 20px;
 }
-@media screen and (max-width:1300px){
+@media screen and (max-width:1150px){
     .box{
         padding: 20px;
         margin: 0px 18px ;
@@ -122,7 +133,7 @@ p{
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:560px){
     .header h1{
         font-size: 50px;   
     }
