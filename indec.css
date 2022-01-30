@@ -19,16 +19,14 @@
     
 }
 .text{
-    font-family:sans-serif ;
+    font-family: cursive;
     background-clip: text;
     color: transparent;
-    -webkit-text-stroke:1.1px white ;
-    text-shadow: 2px #09203f;
- 
+    -webkit-text-stroke:2px white ;
+    text-shadow: 3px #09203f; 
 }
 .header h1{
     margin-top: 15px;
-   
 }
 .box{
     display: flex;
@@ -36,8 +34,7 @@
     margin-right: 100px;
     margin-top: 40px;
     margin-bottom: 60px;
-    justify-content: space-evenly;
-    flex-shrink: 0;
+    justify-content: space-between;
 }
 
 .section{
@@ -49,15 +46,14 @@
     background: -ms-linear-gradient(top,  #a4ccfc 31%,#d3f6fe 100%);
     background: linear-gradient(to bottom,  #9fcaff 31%,#d3f6fe 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94c4fe', endColorstr='#d3f6fe',GradientType=0 );  
-    width:33%;
+    width: 30%;
     flex-wrap: wrap;
-    box-shadow: 1px 4px 6px gray;
-    padding: 20px 0px;
-    height: 350px;
+    box-shadow: 1px 4px 8px gray;
+    padding: 25px 0px;
+    height: 330px;
     transition: 500ms;
-    border-radius: 7px;
-    margin: 0px 12px;
-    
+    border-radius: 8px;
+    flex-shrink: 0;
 }
 .section:hover{
     transform: scale(1.05);
@@ -65,21 +61,22 @@
     cursor:pointer;
 }
 .heading{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     padding-left: 10px;
     margin-left: 30px;
+    font-family: cursive;
 }
 
-a{
+.anchor a{
     text-decoration: none;
-    font-size:22px;
+    font-size:20px;
     text-align: left;
     margin-left: 40px;
     color: rgb(72, 41, 145);
-    
+    padding-right: 10px;
     text-shadow: 2px white;
     font-weight: 550;
-    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Trebuchet MS';
 }
 
 a:hover{
@@ -88,7 +85,7 @@ a:hover{
 }
 
 .anchor{
-    padding: 8px 0px;
+    padding: 7px 0px;
 }
 
 .mid{
@@ -111,27 +108,38 @@ p{
     font-size: large;
     letter-spacing: 0.8px;
     margin-top: 20px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
 }
-@media screen and (max-width:1150px){
+
+
+
+
+
+@media screen and (max-width:1200px){
     .box{
         padding: 20px;
         margin: 0px 18px ;
         justify-content: center;
-        align-items: center;
         flex-wrap: wrap;
+      
     }
     .section{
         flex: 1;
         min-width: 350px;
         margin: 10px;
-      
+        flex-grow: inherit;
+        flex-direction: flex-start;
     }
     .anchor a{
         padding-left: 10px;
         text-align: left;
         margin-left: 30px;
+        font-size: 22px;
+        
     }
 }
+
 
 @media screen and (max-width:560px){
     .header h1{
@@ -139,5 +147,6 @@ p{
     }
     .anchor a{
         text-align: left;
+        font-size: 23px;
     }
 }
