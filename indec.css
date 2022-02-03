@@ -40,15 +40,14 @@
     background: -webkit-gradient(linear, left top, left bottom, color-stop(31%,#94c4fe), color-stop(100%,#d3f6fe));
     background: -webkit-linear-gradient(top,  #b4d6ff 31%,#d3f6fe 100%);
     background: -moz-linear-gradient(top,  #a9d0ff 31%, #d3f6fe 100%);
-    background: -o-linear-gradient(top,  #9fc9fd 31%,#d3f6fe 100%);
-    background: -ms-linear-gradient(top,  #a4ccfc 31%,#d3f6fe 100%);
-    background: linear-gradient(to bottom,  #9fcaff 31%,#d3f6fe 100%);
+    background: -o-linear-gradient(top,  #90c0fa 31%,#d3f6fe 100%);
+    background: -ms-linear-gradient(top,  #a4ccfc 31%,#b3eaf7 100%);
+    background: linear-gradient(to bottom,  #94bff5 31%,#c2dee6 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94c4fe', endColorstr='#d3f6fe',GradientType=0 );  
     width: 30%;
-   
     box-shadow: 1px 4px 8px gray;
     padding: 25px 0px;
-    height: 330px;
+    height: 340px;
     transition: 500ms;
     border-radius: 8px;
     flex-shrink: 0;
@@ -62,7 +61,7 @@
     background: linear-gradient(to bottom,  #d2e2f7 31%,#bde9f3 100%);
 }
 .heading{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding-left: 10px;
     padding-top: 10px;
     margin-left: 30px;
@@ -94,9 +93,9 @@ a:hover{
 }
 
 .mid{
-    background: #deebdd;
-    background: linear-gradient(315deg, #deebdd 0%, #b3ceb5 74%);
-    background: -moz-linear-gradient(315deg, #deebdd 0%, #b3ceb5 74%) ;
+    background: #ebebdd;
+    background: linear-gradient(315deg, #eaebdd 0%, #c7ceb3 74%);
+    background: -moz-linear-gradient(315deg, #e8ebdd 0%, #c6ceb3 74%) ;
     padding: 20px 0px;
     width: 100%;
 }
