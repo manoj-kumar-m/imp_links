@@ -154,4 +154,7 @@ p{
         text-align: left;
         font-size: 23px;
     }
+    .section{
+        padding-bottom: 30px;
+    }
 }
