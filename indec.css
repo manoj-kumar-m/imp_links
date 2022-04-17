@@ -96,7 +96,7 @@ a:hover{
     background: #e6ebdd;
     background: linear-gradient(315deg, #eaebdd 0%, #c7ceb3 74%);
     background: -moz-linear-gradient(315deg, #eaebdd 0%, #c4ceb3 74%) ;
-    padding: 20px 0px;
+    padding: 15px 0px;
     width: 100%;
 }
 
